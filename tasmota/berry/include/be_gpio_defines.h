@@ -82,6 +82,7 @@ const be_const_member_t lv_gpio_constants[] = {
     { "GPIO_INPUT", (int32_t) GPIO_INPUT },
     { "GPS_RX", (int32_t) GPIO_GPS_RX },
     { "GPS_TX", (int32_t) GPIO_GPS_TX },
+    { "GWIOT_RX", (int32_t) GPIO_GWIOT_RX },
     { "HALLEFFECT", (int32_t) GPIO_HALLEFFECT },
     { "HEARTBEAT", (int32_t) GPIO_HEARTBEAT },
     { "HEARTBEAT_INV", (int32_t) GPIO_HEARTBEAT_INV },

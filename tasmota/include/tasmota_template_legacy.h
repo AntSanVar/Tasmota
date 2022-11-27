@@ -423,6 +423,7 @@ const uint16_t kGpioConvert[] PROGMEM = {
   AGPIO(GPIO_ZIGBEE_TX),      // Zigbee Serial interface
   AGPIO(GPIO_ZIGBEE_RX),      // Zigbee Serial interface
   AGPIO(GPIO_RDM6300_RX),
+  AGPIO(GPIO_GWIOT_RX),
   AGPIO(GPIO_IBEACON_TX),
   AGPIO(GPIO_IBEACON_RX),
   AGPIO(GPIO_A4988_DIR),      // A4988 direction pin

@@ -77,6 +77,7 @@ enum UserSelectablePins {
   GPIO_SOLAXX1_TX, GPIO_SOLAXX1_RX,    // Solax Inverter Serial interface
   GPIO_ZIGBEE_TX, GPIO_ZIGBEE_RX,      // Zigbee Serial interface
   GPIO_RDM6300_RX,                     // RDM6300 RX
+  GPIO_GWIOT_RX,                       // GWIOT RX
   GPIO_IBEACON_TX, GPIO_IBEACON_RX,    // HM17 IBEACON Serial interface
   GPIO_A4988_DIR, GPIO_A4988_STP, GPIO_A4988_ENA, GPIO_A4988_MS1,  // A4988 interface
   GPIO_OUTPUT_HI, GPIO_OUTPUT_LO,      // Fixed output state
@@ -964,6 +965,9 @@ const uint16_t kGpioNiceList[] PROGMEM = {
 #endif
 #ifdef USE_RDM6300                      // xsns_51_rdm6300.ino
   AGPIO(GPIO_RDM6300_RX),
+#endif
+#ifdef USE_GWIOT                        // xsns_123_GWIOT.ino
+  AGPIO(GPIO_GWIOT_RX),
 #endif
 #ifdef USE_IBEACON                      // xsns_52_ibeacon.ino
   AGPIO(GPIO_IBEACON_TX),
